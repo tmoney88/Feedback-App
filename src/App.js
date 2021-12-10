@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
-      <Header text="Feedback UI" />
-      <div className="container">
+      <Header text='Feedback UI' />
+      <div className='container'>
         <Form />
         <FeedbackStats feedback={feedback} />
         <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
