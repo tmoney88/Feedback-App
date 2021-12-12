@@ -20,6 +20,7 @@ function FeedbackList({ feedback, handleDelete }) {
     </div>
   )
 
+  // Copy without animation
   // return (
   //   <div className="feedback-list">
   //     {feedback.map(item => (
